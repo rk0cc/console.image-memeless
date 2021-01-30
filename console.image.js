@@ -31,55 +31,6 @@
 	}
 
 	/**
-	 * Draws text in impact font with stroke on context
-	 *
-	 * @param  {CanvasRenderingContext2D} ctx  The canvas context
-	 * @param  {int} size Font size
-	 * @param  {string} text The string to write
-	 * @param  {int} x    X Position
-	 * @param  {int} y    Y position
-	 * @return {null}
-	 */
-	function drawText(ctx, size, text, x, y) {
-		//Set the text styles
-		ctx.font = "bold " + size + "px Impact";
-		ctx.fillStyle = "#fff";
-		ctx.textAlign = "center";
-		ctx.textBaseline = "middle";
-		ctx.lineWidth = 7;
-		ctx.strokeStyle = "#000";
-		ctx.strokeText(text, x, y);
-		ctx.fillText(text, x, y);
-	}
-
-	/**
-	 * Wrap a line of text at an index
-	 *
-	 * @param  {string} text The text
-	 * @param  {int} num  The index to wrap at
-	 * @return {array}      Array of text
-	 */
-	function wrap(text, num) {
-		var output = [],
-			split = text.split(" ");
-
-		var str = [];
-		for(var i = 0, cache = split.length; i < cache; i++) {
-			if((str + split[i]).length < num) str.push(split[i])
-			else {
-				output.push(str.join(" "));
-				str.length = 0;
-				str.push(split[i]);
-			}
-		}
-
-		//Push the final line
-		output.push(str.join(" "));
-
-		return output;
-	}
-
-	/**
 	 * Display an image in the console.
 	 * @param  {string} url The url of the image.
 	 * @param  {int} scale Scale factor on the image

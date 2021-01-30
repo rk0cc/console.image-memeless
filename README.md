@@ -17,6 +17,10 @@ console.image("http://i.imgur.com/hv6pwkb.png");
 console.image("http://i.imgur.com/hv6pwkb.png");
 ```
 
+### There is not provides meme any more
+
+<del>
+
 ### `console.meme(upper text, lower text, meme type|url, width, height)`
 There is also support for dynamically creating on-the-fly real-time memes. Yes, memes.
 
@@ -194,6 +198,8 @@ I used the `padding`, `line-height` and `font-size` properties. I set the paddin
 * "Yo Dawg Xzibit"
 * "You're Bad And You Should Feel Bad"
 * "You're Gonna Have A Bad Time"
+
+</del>
 
 ## Not for linux users
 
