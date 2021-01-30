@@ -199,8 +199,6 @@ I used the `padding`, `line-height` and `font-size` properties. I set the paddin
 * "You're Bad And You Should Feel Bad"
 * "You're Gonna Have A Bad Time"
 
-</del>
-
 ## Not for linux users
 
 Linux does not come with the meme font of choice 'impact' out of the box. To use `console.meme` you are going to want to install the 'impact' font first:
@@ -208,5 +206,7 @@ Linux does not come with the meme font of choice 'impact' out of the box. To use
      sudo apt-get install ttf-mscorefonts-installer
      
 This package is also available in the ubuntu software center.
+
+</del>
 
 LICENSE: WTFPL
